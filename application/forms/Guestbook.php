@@ -23,7 +23,7 @@ class Application_Form_Guestbook extends Zend_Form
             'label'      => 'Please Comment:',
             'required'   => true,
             'validators' => array(
-                array('validator' => 'StringLength', 'options' => array(0, 20))
+                array('validator' => 'StringLength', 'options' => array(0, 200))
                 )
         ));
  
