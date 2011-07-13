@@ -12,7 +12,12 @@ class IndexController extends Zend_Controller_Action
     {
         // action body
     }
-
+ 
+    public function tartAction()
+    {
+      echo 'tart new media parametre adi: $deger';
+        
+    }
 
 }
 
