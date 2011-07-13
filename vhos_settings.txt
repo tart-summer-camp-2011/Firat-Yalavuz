@@ -1,0 +1,15 @@
+<VirtualHost *:80>
+   DocumentRoot "C:/Program Files/Zend/Apache2/htdocs/zpg/public"
+   ServerName zpg.local
+
+   # This should be omitted in the production environment
+   SetEnv APPLICATION_ENV development
+
+   <Directory "C:/Program Files/Zend/Apache2/htdocs/zpg/public">
+       Options Indexes MultiViews FollowSymLinks
+       AllowOverride All
+       Order allow,deny
+       Allow from all
+   </Directory>
+
+</VirtualHost>
