@@ -1,8 +1,0 @@
-<?php
-
-interface NavyInterface
-{
-    
-}
-
-?>
